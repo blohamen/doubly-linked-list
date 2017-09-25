@@ -118,11 +118,10 @@ describe('LinkedList', () => {
             list.append(4);
             list.append(5);
 
-           // list.deleteAt(2);
-            list.deleteAt(4);
+            list.deleteAt(2);
+            
 
-            //expect(list.at(2)).to.equal(4);
-           expect(list.at(3)).to.equal(4);
+            expect(list.at(2)).to.equal(4);
         });
     });
     describe('#reverse', () => {
